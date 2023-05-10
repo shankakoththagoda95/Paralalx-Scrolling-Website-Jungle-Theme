@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Paralalx Scrolling Website | Vanilla JS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </Head>
+    <body>
+        <header id="header">
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="back_img.png" id="back_img">
+            <img src="back.png" id="moon">
+            <img src="middle.png" id="mid_img">
+            <h2 id="text">Jungle</h2>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="front.png" id="front_img">
+            <img src="leaves.png" id="leaves">
+        </section>
+        <div class="sec" id="sec">
+            <h2>Scrolling Effects</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised in 
+                the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker 
+                including versions of Lorem Ipsum.
+            </p>
+            <br>
+            <p>Ac turpis egestas sed tempus urna et pharetra. Quis ipsum suspendisse ultrices gravida. 
+                Tempor nec feugiat nisl pretium fusce id velit. Blandit libero volutpat sed cras ornare 
+                arcu dui vivamus arcu. Praesent tristique magna sit amet purus gravida. Suspendisse 
+                interdum consectetur libero id faucibus nisl tincidunt. Velit sed ullamcorper morbi 
+                tincidunt ornare massa eget egestas. Scelerisque eleifend donec pretium vulputate sapien 
+                nec. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. 
+                Dictum non consectetur a erat nam at lectus. Diam sollicitudin tempor id eu nisl
+            </p>
+        </div>
+        <div class="sec1" id="sec1">
+            <h3 class="stats" id="stats">Statictics</h3>
+            <table border="0">
+                <tr class="t_header" id="t_header">
+                    <th>3000+</th>
+                    <th>20M+</th>
+                    <th>15+</th>
+                </tr>
+                <tr class="t_data_1" id="t_data_1">
+                    <td>Users</td>
+                    <td>Followers</td>
+                    <td>Countires</td>
+                </tr>
+                <tr class="t_data_2" id="t_data_2">
+                    <td>Lorem Ipsum is simply dummy text of <br>
+                        the printing and typesetting industry.</td>
+                    <td>Tristique senectus et netus et malesuada <br>
+                        fames. Dignissim sodales</td>
+                    <td>Quam id leo in vitae turpis.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="sec2" id="sec2">
+            <h3 class="crew" id="crew">Our Team</h3>
+            <table border="0">
+                <tr class="teamimg" id="teamimg">
+                    <td class="teams" id="teams"><img src="person1.png"></td>
+                    <td class="memName" id="memName">
+                        <h2>Angella Mathews</h2>
+                        <h5>Marketing Manager</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="teams" id="teams"><img src="person2.png"></td>
+                    <td class="memName" id="memName">
+                        <h2>Jack Brook</h2>
+                        <h5>Web Developer</h5>
+                        Fringilla ut morbi tincidunt augue. Pulvinar neque laoreet suspendisse interdum consectetur libero id. Est ullamcorper eget nulla facilisi. Eu tincidunt tortor aliquam nulla facilisi. Vel pretium lectus quam id leo in vitae. Cursus risus at ultrices mi tempus. Ultricies mi quis hendrerit dolor magna eget. Libero justo laoreet sit amet cursus sit amet.
+                    </td>    
+                </tr>
+                <tr>
+                    <td class="teams" id="teams"><img src="person3.png"></td>
+                    <td class="memName" id="memName">
+                        <h2>Joe Hardy</h2>
+                        <h5>Digital Marketing</h5>
+                        Sed blandit libero volutpat sed cras ornare arcu. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Amet cursus sit amet dictum. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Purus in massa tempor nec feugiat nisl. Enim diam vulputate ut pharetra sit amet.
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact_us" id="contact_us">
+            <h3 class="contact_us" id="contact_us">Contact Us</h3>
+            <table>
+                <tr>
+                    <td class="icon" id="icon"><img src="socialmedia icons/facebook.png"><p>/yourcompany</p></td>
+                    <td class="icon" id="icon"><img src="socialmedia icons/linked-in.png"><p>/yourcompany</p></td>
+                    <td class="icon" id="icon"><img src="socialmedia icons/insta.png"><p>/yourcompany</p></td>
+                    <td class="icon" id="icon"><img src="socialmedia icons/dribble.png"><p>/yourcompany</p></td>
+                    <td class="icon" id="icon"><img src="socialmedia icons/twitter.png"><p>/yourcompany</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <script>
+            let back_img = document.getElementById('back_img');
+            let moon = document.getElementById('moon');
+            let mid_img = document.getElementById('mid_img');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let front_img = document.getElementById('front_img');
+            let header = document.getElementById('header');
+            let leaves = document.getElementById('leaves')
+
+            window.addEventListener('scroll',function(){
+                let value = window.scrollY;
+                back_img.style.left = value * 1.5 + 'px';
+                mid_img.style.top = value * 0.25 + 'px';
+                front_img.style.top = value * 0 + 'px';
+                text.style.marginLeft = value * 1.25 + 'px';
+                btn.style.marginRight = value * 1.75 + 'px';
+                header.style.marginTop = value * 0.3 + 'px';
+                leaves.style.marginTop = value * 0.7 + 'px';   
+            })
+        </script>
+    </body>
+</html>
